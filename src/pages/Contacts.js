@@ -29,7 +29,7 @@ import {
   lineLegends,
 } from '../utils/demo/chartsData'
 
-function Dashboard() {
+function Contacts() {
   const [page, setPage] = useState(1)
   const [data, setData] = useState([])
 
@@ -50,7 +50,7 @@ function Dashboard() {
 
   return (
     <>
-      <PageTitle>Dashboard</PageTitle>
+      <PageTitle>Contacts</PageTitle>
 
       <CTA />
 
@@ -154,4 +154,4 @@ function Dashboard() {
   )
 }
 
-export default Dashboard
+export default Contacts
