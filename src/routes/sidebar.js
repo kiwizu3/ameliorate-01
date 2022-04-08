@@ -18,8 +18,8 @@ const routes = [
   },
   {
     path: '/app/forms',
-    icon: 'FormsIcon',
-    name: 'Forms',
+    icon: 'ChatIcon',
+    name: 'Campaigns',
   },
   {
     path: '/app/cards',
